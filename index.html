@@ -4,38 +4,97 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
     <header>
-      <div class="left">
-        <h1><a href="index.html">Dea's Portfolio</a></h1>
+      <div id="left">
+        <h1><a href="./index.html">Dea's Portfolio</a></h1>
       </div>
-      <div class="right">
+      <div id="right">
         <ul>
-          <li>About Me</li>
-          <li>Skills</li>
-          <li><a href="./projects.html">Projects</a></li>
-          <li>Contacts</li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contacts">Contacts</a></li>
         </ul>
       </div>
     </header>
     <main>
-      <div class="introduction">
-        <h2>Hello, I'm Dea!</h2>
-        <p>
-          (Bahasa inggris) Lorem ipsum dolor sit amet, consectetur adipisicing
-          elit. Voluptatem, aut velit modi ipsum accusamus excepturi soluta quis
-          quisquam fugit non ipsa accusantium animi optio, incidunt unde iusto
-          quos vitae dolorem.
-        </p>
-        <p></p>
-          (Bahasa Indo) Lorem ipsum dolor sit amet,
-          consectetur adipisicing elit. Voluptatem, aut velit modi ipsum
-          accusamus excepturi soluta quis quisquam fugit non ipsa accusantium
-          animi optio, incidunt unde iusto quos vitae dolorem.
-        </p>
+      <div id="about">
+        <div id="about-content">
+          <div>
+            <h2>Hello, I'm Dea!</h2>
+            <p>
+              Saya adalah seorang Mahasiswi Computer Science di BINUS University
+              dengan penjurusan Software Engineering.
+            </p>
+            <p>
+              I am a Computer Science student at BINUS University with a focus
+              in Software Engineering.
+            </p>
+          </div>
+          <div id="intro-img"><img src="./assets/myself.png" /></div>
+        </div>
       </div>
-      <div class="intro-img"><img src="./assets/placeholder.png"></div>
+      <div id="projects">
+        <h2>Projects</h2>
+        <div id="projects-content">
+          <div id="project-card">
+            <a href="./projectobeng.html">
+              <img src="./assets/obeng-thumb.png" />
+              <h3>Obeng - Online Bengkel</h3>
+            </a>
+          </div>
+          <div id="project-card">
+            <a href="./projectguess.html">
+              <img src="./assets/guess-thumb.png" />
+              <h3>Guess My Number - Game</h3>
+            </a>
+          </div>
+          <div id="project-card">
+            <a href="./projectjokey.html">
+              <img src="./assets/jockey-thumb.png" />
+              <h3>Jockey's Conference Center</h3>
+            </a>
+          </div>
+          <div id="project-card">
+            <a href="./projectportfolio.html">
+              <img src="" />
+              <h3>This Portfolio Website!</h3>
+            </a>
+          </div>
+          <div id="project-card">
+            <a href="./projectatm.html">
+              <img src="./assets/atm-thumb.png" />
+              <h3>Console ATM Simulator</h3>
+            </a>
+          </div>
+          <div id="project-card">
+            <a href="./projectasp.html">
+              <img src="./assets/asp-thumb.png" />
+              <h3>ASP.NET Project</h3>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="contacts">
+        <div id="contacts-content">
+          <h2>Say Hi!</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <div id="socials">
+            <a>
+              <img src="./assets/icon-github.png" />
+            </a>
+            <a>
+              <img src="./assets/icon-whatsapp.png" />
+            </a>
+            <a>
+              <img src="./assets/icon-linkedin.png" />
+            </a>
+          </div>
+        </div>
+      </div>
     </main>
   </body>
 </html>

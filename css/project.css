@@ -1,0 +1,25 @@
+#content-header img {
+  height: 35vh;
+  width: 100vw;
+  object-fit: cover;
+}
+
+#content {
+  width: 65vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#media-project {
+  display: flex;
+  justify-content: center;
+}
+
+#media-project img {
+  height: 70vh;
+}
+
+#content a {
+  color: #7963bc;
+  font-weight: 500;
+}

@@ -1,0 +1,42 @@
+#about {
+  background-color: #7963bc;
+  padding: 4rem;
+}
+
+#about-content {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  width: 65vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#about-content img {
+  margin-left: 3rem;
+  width: 25vw;
+}
+
+#projects {
+  width: 65vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+}
+
+#projects-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#project-card {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  box-shadow: #7963bc;
+  width: 27%;
+  box-shadow: #bdbdbd 2px 2px 7px;
+}
+#project-card img {
+  width: 100%;
+}
