@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Obeng - Online Bengkel",
+    "banner": "./assets/obeng-banner.png",
+    "tags": ["Javascript", "ReactJS", "NodeJS", "MongoBD"],
+    "media": "https://www.youtube.com/embed/tp9ghLs0vCM?si=2yRgZ30s05d24otB",
+    "overview": "'Obeng' is a web-application where users can find and share informations about automotive shops around them. As well a a platform where workshop owners can list their buisness to promote it.",
+    "myrole": "During beginning of the development, I was the back-end developer. Although as time went on, I ended up assisting in creation of the front-end as well. So I was pretty much the main programmer. This project was develop using ReactJS as it's front-end framework, NodeJs as it's back-end, and MongoDB as it database system.",
+    "linkname": ["Visit Obeng", "GitHub repository", "Figma"],
+    "link": [
+      "https://obeng-workshops.vercel.app",
+      "https://github.com/desyha/full-stack-project-se",
+      "https://www.figma.com/design/jUUJDOW58S8kBVmcvCfVSw/OBENG?node-id=0-1&t=B5vWLl9M94EHAe9t-1"
+    ]
+  },
+  {
+    "title": "Guess My Number - Game",
+    "banner": "./assets/guess-banner.png",
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "media": "https://www.youtube.com/embed/-jVRooYS40M?si=QhYYGIXDQsmXw7Vt",
+    "overview": "In this game, the player will guess the randomly generated number. If they guessed incorrectly, the game will tell them wheter their guess id too high or too low. The player will win if they guess the number correctly, and they will lose if their score reaches 0. For every wrong guess, the score will decrease.",
+    "myrole": "This project was assigned in a Udemy course I took, titled 'The Complete JavaScript Course 2024: From Zero to Expert!'. The goal of this project was to teach basic DOM and events. Therefore our task was to come up with the logic of the game using javascript. Altough the course provided the html and css file, I decided to remade it, just as an extra practice for myself.",
+    "linkname": ["Play the game", "GitHub repository"],
+    "link": [
+      "https://desyha.github.io/guessing-game/",
+      "https://github.com/desyha/guessing-game"
+    ]
+  },
+  {
+    "title": "Jockey's Conference Center",
+    "banner": "./assets/jockey-banner.png",
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "media": "./assets/jockey-media.png",
+    "overview": "Jockey's Conference Center is a website for a fictional conference center located in Jakarta that host important national and international conference, exhibition, fair, indoor sports, musical concerts, and other activities.",
+    "myrole": "This project was given during my Human and Computer Interaction class, where we were assigned to create a website prototype and company website for a fictional business. During the creation, we must adhere to the principles of human-computer interaction as well as to meet the requirements of the website. Which are: To ensure the website prototype is the exact same as the final product, and that the website consists of five main pages (Home Page, Events Page, Price List Page, About Us Page, and Contact Us Page).",
+    "linkname": ["GitHub repository", "Figma"],
+    "link": [
+      "https://github.com/desyha/jockeys-conference-center",
+      "https://www.figma.com/design/zeyd6cJB6v54ktVRlwZGQZ/LAB-HCI?t=8jBC5xD1KCtGGwax-1"
+    ]
+  },
+  {
+    "title": "Console ATM Simulator",
+    "banner": "./assets/atm-banner.png",
+    "tags": ["Java"],
+    "media": "https://www.youtube.com/embed/6ecxLShukPM?si=HVAnTtfjiWZWA20q",
+    "overview": "A simple console program that simulates an ATM with a Rp. 50,000 denomination. Its main feature consist of depositing money, transferring funds, changing the PIN, and checking account balances.",
+    "myrole": "This was assigned during my Object Oriented Programming class, where we were tasked to built either a  library app, showroom app, ECommerce app, or an ATM Simulator. The application also needed to feature multithread and class relation(s). For the record, I know that having too many comments is a code smell, but it's there because our lecturer told us to explain the program using comments",
+    "linkname": ["GitHub repository"],
+    "link": ["https://github.com/desyha/atm-simulator"]
+  },
+  {
+    "title": "ASP.NET Project",
+    "banner": "./assets/asp-banner.png",
+    "tags": ["C#", "ASP.NET"],
+    "media": "https://www.youtube.com/embed/O2N3iBoHl3c?si=uKn_gOq9fopWb2_8",
+    "overview": "This project is a website for 'RAiso', a fictional online store that specializes in selling stationery products. For this project our lecturer instructed us to focus on on the domain-driven design as well as teaching us the backend of web develompment (that's why the UI is very plain).",
+    "myrole": "We were given this project during our Domain-Driven Design class, where we worked on features like Admin view, Customer view, and Guest view. In addition than that we implemented layers of the domain-driven design such as models, factories, repository, handler, and controller. How they interact with one-another and influence the overall architecture.",
+    "linkname": ["GitHub repository"],
+    "link": ["https://github.com/desyha/rasio-aspnet"]
+  }
+]

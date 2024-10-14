@@ -1,0 +1,22 @@
+#contacts {
+  clip-path: polygon(0 13%, 22% 0, 100% 20%, 100% 100%, 0% 100%);
+  padding-bottom: 2rem;
+  background-color: var(--primary);
+}
+
+#contacts-content {
+  color: var(--offwhite);
+  width: 65vw;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+#socials img {
+  width: 3rem;
+}
+
+@media only screen and (max-width: 640px) {
+  #contacts-content {
+    width: 75vw;
+  }
+}

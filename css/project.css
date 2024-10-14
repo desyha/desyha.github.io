@@ -1,25 +1,88 @@
-#content-header img {
-  height: 35vh;
-  width: 100vw;
+@import "./var.css";
+
+#project-banner {
+  height: 20vw;
+  max-height: 40vh;
+  width: 99vw;
+  clip-path: polygon(
+    0% 87%,
+    19% 99%,
+    38% 95%,
+    47% 98%,
+    70% 92%,
+    83% 95%,
+    100% 88%,
+    100% 0%,
+    0% 0%
+  );
   object-fit: cover;
 }
 
 #content {
   width: 65vw;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 3rem auto;
 }
 
-#media-project {
+#project-media {
+  margin: 2rem 0;
   display: flex;
   justify-content: center;
+  background: repeating-linear-gradient(
+    white,
+    white 1.1rem,
+    var(--primary) 1.2rem
+  );
+  padding: 3rem 1rem;
+  clip-path: polygon(
+    0% 100%,
+    100% 100%,
+    100% 0%,
+    90% 0,
+    91% 8%,
+    84% 7%,
+    84% 0%,
+    69% 0%,
+    68% 7%,
+    62% 7%,
+    62% 0,
+    44% 0,
+    43% 7%,
+    36% 7%,
+    37% 0,
+    21% 0%,
+    21% 8%,
+    15% 8%,
+    14% 0,
+    0% 0%
+  );
 }
 
-#media-project img {
-  height: 70vh;
+#project-media img {
+  max-height: 70vh;
 }
 
-#content a {
-  color: #7963bc;
-  font-weight: 500;
+ul {
+  margin-left: -2rem;
+}
+
+#project-tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#project-tags li {
+  background-image: linear-gradient(transparent, var(--secondary) 70%);
+  margin: 0.2rem;
+  padding: 0.2rem;
+}
+
+#project-links a {
+  font-weight: bold;
+  color: var(--primary);
+}
+
+@media only screen and (max-width: 640px) {
+  #content {
+    width: 75vw;
+  }
 }

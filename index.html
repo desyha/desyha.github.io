@@ -6,24 +6,16 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/index.css" />
+    <script defer src="./js/Headernav.js"></script>
+    <script defer src="./js/FooterContact.js"></script>
+    <script defer src="./js/ProjectCard.js"></script>
   </head>
   <body>
-    <header>
-      <div id="left">
-        <h1><a href="./index.html">Dea's Portfolio</a></h1>
-      </div>
-      <div id="right">
-        <ul>
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contacts">Contacts</a></li>
-        </ul>
-      </div>
-    </header>
+    <header-nav></header-nav>
     <main>
       <div id="about">
         <div id="about-content">
-          <div>
+          <div id="infos">
             <h2>Hello, I'm Dea!</h2>
             <p>
               Saya adalah seorang Mahasiswi Computer Science di BINUS University
@@ -40,61 +32,41 @@
       <div id="projects">
         <h2>Projects</h2>
         <div id="projects-content">
-          <div id="project-card">
-            <a href="./projectobeng.html">
-              <img src="./assets/obeng-thumb.png" />
-              <h3>Obeng - Online Bengkel</h3>
-            </a>
-          </div>
-          <div id="project-card">
-            <a href="./projectguess.html">
-              <img src="./assets/guess-thumb.png" />
-              <h3>Guess My Number - Game</h3>
-            </a>
-          </div>
-          <div id="project-card">
-            <a href="./projectjokey.html">
-              <img src="./assets/jockey-thumb.png" />
-              <h3>Jockey's Conference Center</h3>
-            </a>
-          </div>
-          <div id="project-card">
-            <a href="./projectportfolio.html">
-              <img src="" />
-              <h3>This Portfolio Website!</h3>
-            </a>
-          </div>
-          <div id="project-card">
-            <a href="./projectatm.html">
-              <img src="./assets/atm-thumb.png" />
-              <h3>Console ATM Simulator</h3>
-            </a>
-          </div>
-          <div id="project-card">
-            <a href="./projectasp.html">
-              <img src="./assets/asp-thumb.png" />
-              <h3>ASP.NET Project</h3>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div id="contacts">
-        <div id="contacts-content">
-          <h2>Say Hi!</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          <div id="socials">
-            <a>
-              <img src="./assets/icon-github.png" />
-            </a>
-            <a>
-              <img src="./assets/icon-whatsapp.png" />
-            </a>
-            <a>
-              <img src="./assets/icon-linkedin.png" />
-            </a>
-          </div>
+          <project-card
+            href="./project.html?id=0"
+            src="./assets/obeng-thumb.png"
+            title="Obeng - Online Bengkel"
+          ></project-card>
+          <project-card
+            href="./project.html?id=1"
+            src="./assets/guess-thumb.png"
+            title="Guess My Number - Game"
+          ></project-card>
+          <project-card
+            href="./project.html?id=2"
+            src="./assets/jockey-thumb.png"
+            title="Jockey's Conference Center"
+          ></project-card>
+          <project-card
+            href="./project.html?id=3"
+            src="./assets/atm-thumb.png"
+            title="Console ATM Simulator"
+          ></project-card>
+          <project-card
+            href="./project.html?id=4"
+            src="./assets/asp-thumb.png"
+            title="ASP.NET Project"
+          ></project-card>
+          <project-card
+            href="https://github.com/desyha/desyha.github.io"
+            src="./assets/this-thumb.png"
+            title="This Portfolio Website!"
+          ></project-card>
         </div>
       </div>
     </main>
+    <div id="contacts">
+      <footer-contacts></footer-contacts>
+    </div>
   </body>
 </html>
