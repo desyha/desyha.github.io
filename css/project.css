@@ -85,4 +85,8 @@ ul {
   #content {
     width: 75vw;
   }
+
+  iframe {
+    height: 215px;
+  }
 }
