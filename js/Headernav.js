@@ -9,7 +9,7 @@ class Headernav extends HTMLElement {
       </div>
       <div id="right">
         <ul>
-          <li><a href="./index.html#about">About Me</a></li>
+          <li><a href="./index.html#about">About</a></li>
           <li><a href="./index.html#projects">Projects</a></li>
           <li><a href="#contacts">Contacts</a></li>
         </ul>

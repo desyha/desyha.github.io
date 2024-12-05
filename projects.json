@@ -58,5 +58,17 @@
     "myrole": "We were given this project during our Domain-Driven Design class, where we worked on features like Admin view, Customer view, and Guest view. In addition than that we implemented layers of the domain-driven design such as models, factories, repository, handler, and controller. How they interact with one-another and influence the overall architecture.",
     "linkname": ["GitHub repository"],
     "link": ["https://github.com/desyha/rasio-aspnet"]
+  },
+  {
+    "title": "Classifying Dog Breeds with Pre-Trained Models",
+    "banner": "./assets/dog-banner.png",
+    "tags": ["Python", "VGG"],
+    "media": "https://www.youtube.com/embed/DyYZ_82XezI?si=d-15UaJNhZ27Y0lW",
+    "overview": "This is a project assigned from Udacity's AI Programming with Python Nanodegree Program. The program takes photos from the 'pet_images' folder and categorizes whether the pictures contain a dog or not, and classifies the breed of the dog if it does contain one. The video demo used the VGG model to process the images.",
+    "myrole": "In this project, my main task was data processing. Starting from labeling the images to represent the 'truth'. After that, the images went through the image classifier model, and the result will go to further processing. I compared the result with the 'truth' from the beginning to to find the match. Then, calculated how many pictures were correctly identified as dogs, and how many of them were classified with the correct breed.",
+    "linkname": ["GitHub repository"],
+    "link": [
+      "https://github.com/desyha/udacity-classifiying-dog-breeds-with-pre-trained-model.git"
+    ]
   }
 ]
